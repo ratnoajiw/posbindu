@@ -15,6 +15,6 @@ class TextStyles {
   static TextStyle body = const TextStyle(
       fontFamily: 'Outfit',
       fontWeight: FontWeight.normal,
-      fontSize: 16.0,
+      fontSize: 15.0,
       color: AppColors.darkGrey);
 }
