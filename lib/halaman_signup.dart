@@ -133,7 +133,9 @@ class _HalamanSignupState extends State<HalamanSignup> {
                 },
                 child: Text(
                   'Login',
-                  style: TextStyles.body.copyWith(fontSize: 16.0),
+// Suggested code may be subject to a license. Learn more: ~LicenseLog:1217663827.
+                  style: TextStyles.title
+                      .copyWith(fontSize: 16.0, color: AppColors.darkGreen),
                   textAlign: TextAlign.center,
                 ),
               )

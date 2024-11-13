@@ -121,7 +121,8 @@ class _HalamanLoginState extends State<HalamanLogin> {
                 },
                 child: Text(
                   'Daftar',
-                  style: TextStyles.body.copyWith(fontSize: 16.0),
+                  style: TextStyles.title
+                      .copyWith(fontSize: 16.0, color: AppColors.darkGreen),
                   textAlign: TextAlign.center,
                 ),
               ),

@@ -92,7 +92,7 @@ class _HalamanForgotpasswordState extends State<HalamanForgotpassword> {
                 },
                 child: Text(
                   'Kembali ke Login',
-                  style: TextStyles.body
+                  style: TextStyles.title
                       .copyWith(fontSize: 16.0, color: AppColors.darkGreen),
                   textAlign: TextAlign.center,
                 ),
