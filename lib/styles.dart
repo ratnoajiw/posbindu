@@ -9,12 +9,12 @@ class TextStyles {
   static TextStyle title = const TextStyle(
       fontFamily: 'Outfit',
       fontWeight: FontWeight.bold,
-      fontSize: 16.0,
+      fontSize: 20.0,
       color: AppColors.darkGrey);
 
   static TextStyle body = const TextStyle(
       fontFamily: 'Outfit',
       fontWeight: FontWeight.normal,
-      fontSize: 15.0,
+      fontSize: 18.0,
       color: AppColors.darkGrey);
 }

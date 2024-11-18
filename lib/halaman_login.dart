@@ -51,7 +51,7 @@ class _HalamanLoginState extends State<HalamanLogin> {
               const SizedBox(height: 16.0),
               Text(
                 'Detail Login',
-                style: TextStyles.title,
+                style: TextStyles.title.copyWith(fontSize: 18.0),
               ),
               const SizedBox(height: 16.0),
               CustomTextfield(
@@ -84,7 +84,7 @@ class _HalamanLoginState extends State<HalamanLogin> {
                 },
                 child: Text(
                   'Lupa Kata Sandi?',
-                  style: TextStyles.body.copyWith(fontSize: 16.0),
+                  style: TextStyles.body.copyWith(fontSize: 18.0, fontWeight: FontWeight.bold),
                 ),
               ),
               const SizedBox(height: 16.0),
@@ -108,7 +108,7 @@ class _HalamanLoginState extends State<HalamanLogin> {
               const SizedBox(height: 16.0),
               Text(
                 'Buat Akun Baru',
-                style: TextStyles.body.copyWith(fontSize: 16.0),
+                style: TextStyles.body.copyWith(fontSize: 18.0),
                 textAlign: TextAlign.center,
               ),
               const SizedBox(height: 16.0),
@@ -122,7 +122,7 @@ class _HalamanLoginState extends State<HalamanLogin> {
                 child: Text(
                   'Daftar',
                   style: TextStyles.title
-                      .copyWith(fontSize: 16.0, color: AppColors.darkGreen),
+                      .copyWith(fontSize: 20.0, color: AppColors.darkGreen),
                   textAlign: TextAlign.center,
                 ),
               ),
